@@ -49,3 +49,11 @@ http_archive(
     url = "https://github.com/nlohmann/json/releases/download/v3.7.3/include.zip",
 )
 
+# Everything repo dependencies.
+http_archive(
+    name = "jwt-cpp",
+    build_file = "@third_party//jwt-cpp:BUILD",
+    strip_prefix = "jwt-cpp-0.5.0/include",
+    url = "https://github.com/Thalhammer/jwt-cpp/archive/v0.5.0.zip",
+)
+
