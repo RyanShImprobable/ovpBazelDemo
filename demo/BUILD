@@ -6,7 +6,6 @@ cc_binary(
 	copts = ["-Ilib"],
 	deps = [
         "//lib:proto_gen_cpp",
-		"@nlohmann_json",
 		"@jwt-cpp",
 		"@com_google_protobuf//:protobuf",
 		
