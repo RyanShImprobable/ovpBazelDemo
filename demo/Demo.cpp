@@ -234,6 +234,8 @@ std::string readFileToString(const std::string filePath)
 
 
 int main(int argc, char** argv) {
+	std::cout << "Game is running!";
+	/*
 	std::string agonescacert = readFileToString("C:/Umi_ovp/cpp_sample/agonescacert");
 	std::string agonescert = readFileToString("C:/Umi_ovp/cpp_sample/agonescert");
 	std::string agoneskey = readFileToString("C:/Umi_ovp/cpp_sample/agoneskey");
@@ -255,6 +257,7 @@ int main(int argc, char** argv) {
 	std::string locatorKey = readFileToString("C:/Umi_ovp/cpp_sample/locatorsignkey");
 	greeter.syncAllocateAndLogin("ryan-login", locatorKey, agonescert, agoneskey);
 
+	*/
 
 	/*
 	//List
