@@ -4,6 +4,6 @@ licenses(["notice"])
 
 cc_library(
     name = "jwt-cpp",
-    hdrs = glob(["jwt-cpp-0.5.0/**/*.hpp"]),
+    hdrs = glob(["jwt-cpp-0.5.0/**/*.*"]),
     includes = ["."],
 )
